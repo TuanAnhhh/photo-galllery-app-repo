@@ -1,0 +1,8 @@
+.progressBar {
+    background-color: var(--primary-color);
+    height: 10px;
+    text-align: center;
+    transition: all 0.5s ease;
+    border-radius: 2px;
+    /* transform: translateX(10%); */
+}

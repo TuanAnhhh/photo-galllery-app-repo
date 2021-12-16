@@ -1,0 +1,15 @@
+header > h3 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin: 1rem 0.5rem;
+}
+.text {
+    color: var(--secondary-color);
+    text-align: center;
+}
+.text__title {
+    font-size: 3rem;
+}
+.text__desc {
+    font-size: 1.2rem;
+}

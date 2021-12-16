@@ -1,0 +1,23 @@
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin: 2rem auto;
+}
+.images__item {
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    opacity: 0.8;
+}
+.images__item image {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+}
+.images__item :hover {
+    cursor: pointer;
+}
